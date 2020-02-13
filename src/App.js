@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Wall from './components/Wall/Wall'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='main' >
+      <header>
+       
+         <div className="logo">
+         <img className='facebook' src="https://www.facebook.com/images/fb_icon_325x325.png" alt=""/>
+         </div>
+         <div className='find'>
+         <input className='search' type="text" placeholder='Поиск'/>
+         </div>
+         <nav>
+         <ul>
+           <li><a className='navLink' href="#">Главная</a></li>
+           <li><a className='navLink' href="#">Найти друзей</a></li>
+           <li><a className='navLink' href="#">Создать</a></li>
+         </ul>
+         </nav>
+                
       </header>
+      <Wall/>
     </div>
-  );
+  )
 }
-
-export default App;

@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,255 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+header{
+  height: 80px;
+  background-color: #4267B2;
+}
+
+
+.facebook{
+  width: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
+
+}
+.logo{
+float: left;
+}
+nav{
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  
+}
+.navLink{
+display: block;
+text-decoration: none;
+color:white;
+font-weight: 600;
+padding: 5px;
+border-right: 1px solid rgba(49, 48, 48, 0.466);
+transition: all 0.6s;
+}
+.navLink:hover{
+  transition: all 0.6s;
+  background: rgb(36, 81, 170);
+}
+
+
+.search{
+  padding-left: 10px;
+  width: 150px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-right: 15px;
+  float: left;
+}
+.main{
+  width:900px;
+  margin: 0 auto;
+  border: 1px solid silver;
+  background: #E9EBEE;
+  height: 600px;
+  overflow: auto;
+}
+
+/* Пост */
+.postImg{
+  width:700px;
+  height: 450px;  
+}
+.post{
+  width: 700px;
+  margin: 30px auto;
+  border: 1px solid silver;
+  background: white;
+  
+}
+.authorAva{
+  width: 60px;
+  border-radius: 50%;
+  
+}
+
+
+/* Публикация */
+.pubText{
+  border: 1px solid silver;
+  width: 600px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  color: #4B4F56;
+  font-weight: 500;
+  margin-top: 60px;
+}
+.pub{
+  height: 150px;
+  width: 600px;
+  margin: 0px auto 80px;
+  border: 1px solid silver;
+  padding: 20px;
+  box-sizing: border-box;
+  background:whitesmoke;
+}
+.inp{
+  width: 300px;
+  float: left;
+  margin-top: 10px;
+}
+.post_input{
+  width: 250px;
+  height: 40px;
+  margin-left: 10px;
+  border: 0;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.descriptionInput{
+  margin-left: 10px;
+  border: 0px;
+  height: 40px;
+  margin-top: 10px;
+  padding: 20px;
+  width: 250px;
+  box-sizing: border-box;
+}
+.ava{
+  width: 60px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.publish_btn{
+  font-size: 12px;
+  margin-left: 40px;
+  padding: 8px;
+  transition: all 0.2s;
+  border-radius: 5px;
+  border: 0;
+  background:#4267B2;
+  color:white;
+  opacity: 0.7;
+  margin-top: 35px;
+}
+.publish_btn:hover{
+  opacity: 4;
+  transition: all 0.7s;  
+
+}
+*{
+  outline: none;
+}
+.like{
+  width: 25px;
+}
+.likePost{
+  margin-left: 30px;
+}
+.remove{
+  width: 25px;
+  background: white;
+  
+}
+.btn{
+  padding: 8px;
+  background-color: white;
+  border: 1px solid silver;
+
+}
+
+.commentIcon{
+  width: 23px;
+  margin: 2px;
+  box-sizing: border-box;
+}
+.actions{
+  margin-top: 30px;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.spanText{
+  font-weight: 500;
+  font-size: 17px;
+}
+.commentAddForm{
+  margin-top: 30px;
+margin-left: 150px;
+margin-bottom: 40px;
+}
+.inputAddComment{
+  padding-left: 35px;
+  height: 40px;
+  width: 300px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid silver; 
+}
+.inputAddComment::focus{
+  border-radius: 20px;
+  border: 1px solid silver;
+}
+.send{
+  margin-left: 10px;
+  font-size: 18px;
+
+}
+.comments{
+  border: 1px solid silver;
+  border-radius: 20px;
+}
+.comment{
+  border-bottom: 1px solid silver;
+  margin-bottom: 30px;
+}
+.remove_comment{
+  width: 17px;
+
+}
+.likeComment{
+  width: 17px;
+}
+.commentContent{
+  margin-left: 200px;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.likeBlock{
+  margin-left: 260px;
+}
+.removeBlock{
+  margin-left: 650px;
+  margin-bottom: 30px;
+}
+.authorBlock{
+  margin-left: 30px;
+}
+.postAbout{
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.description{
+  margin-left: 150px;
+  font-family: monospace;
+  font-size: 22px;
+}
+h3{
+  margin-left: 10px;
+}
+
+.blue{
+  background: #3784FF;
 }
